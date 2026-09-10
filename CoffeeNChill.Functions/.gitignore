@@ -1,0 +1,55 @@
+# Azure Functions - local settings (contains secrets, DO NOT commit)
+local.settings.json
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+
+# NuGet
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Publish output
+publish/
+*.pubxml
+*.publishproj
+*.publishsettings
+
+# Misc
+*.tmp
+*.log
+node_modules/
+*.cache
+*.pfx
+*.mdf
+*.ldf
